@@ -1,0 +1,18 @@
+<h1>Integrate Angular with MongoDb using Node.js Server</h1>
+<hr>
+
+
+<table id="employees">
+
+  <tr>
+    <th *ngFor="let col of columns">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let employee of employees">
+    <td *ngFor="let col of index">
+      {{employee[col]}}
+    </td>
+  </tr>
+
+</table>
